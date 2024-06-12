@@ -1,2 +1,4 @@
 [tool.taskipy.tasks]
 format = "isort . && black ."
+run = "python app/main.py"
+kill  = "kill -9 $(lsof -t -i :8000)"
