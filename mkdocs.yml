@@ -1,22 +1,23 @@
 site_name: Estrutura projeto de dados
-thema:
-  name: material 
-  pallete:
+theme:
+  name: material
+  palette:
     primary: blue
   language: pt
 
 repo_name: "Vitor-HM/estrutura_workshop"
-repo_url: "https://github.com/Vitor-HM/estrutura_workshop"
-
+repo_url: "https://github.com/Vitor-HM/estrutura_workshop/"
 
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
+
 plugins:
   - search
   - mkdocstrings:
       default_handler: python
 
-
+nav:
+  - Home: index.md
