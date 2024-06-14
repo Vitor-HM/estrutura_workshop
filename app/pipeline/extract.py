@@ -8,7 +8,7 @@ import pandas as pd
 def extract_excel(p_path) -> List[pd.DataFrame]:
     """
     Função para ler os arquivos de
-    uma pastas date/input e returna uma lista de dataframes
+    uma pasta (date/input) e retorna uma lista de dataframes
 
     args: input_path (str): caminho da pasta com os arquivos
 

@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+# Objetivo
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Ler diversos arquivos com extensão .xlsx e transforma-los em um só arquivo
 
-## Commands
+# Funções
+# Função de extração de dados
+### ::: app.pipeline.extract.extract_excel
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
+# Função de transformação de dados
+### ::: app.pipeline.transform.concatena_dataframe
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+# Função de carregamento de dados
+### ::: app.pipeline.load.carrega_excel
+
