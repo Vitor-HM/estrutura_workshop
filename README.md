@@ -7,7 +7,7 @@
 2. Você também deve ter uma conta no GitHub.
 
 ### Instalação e Configuração
-1. Colne o repositorio
+1. Clone o repositorio
 ```bash
 git clone https://github.com/Vitor-HM/estrutura_workshop
 cd estrutura_workshop
