@@ -10,7 +10,7 @@
 1. Colne o repositorio
 ```bash
 git clone https://github.com/Vitor-HM/estrutura_workshop
-cd estrutura_workshop1
+cd estrutura_workshop
 ```
 
 2. **Crie um ambiente virtual (opcional, mas recomendado):**
