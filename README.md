@@ -12,3 +12,21 @@
 git clone https://github.com/Vitor-HM/estrutura_workshop
 cd estrutura_workshop1
 ```
+
+2. **Crie um ambiente virtual (opcional, mas recomendado):**
+```bash
+python -m venv .venv
+source .venv/Scripts/activate
+```
+
+3. **Instale as dependências:**
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Execute o comando de execucão da pipeline para realizar a ETL:
+
+```bash
+task run
+```
